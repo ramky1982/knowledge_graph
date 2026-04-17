@@ -72,7 +72,7 @@ def build_lease_property_kg(
             end_date=to_datetime(row.get("end_date")),
             signed_date=to_datetime(row.get("signed_date")),
             lease_status=row.get("lease_status") or None,
-            lease_activity_type=row.get("lease_type") or None,
+            lease_type=row.get("lease_type") or None,
             usage_type=row.get("property_usage_type") or None,
         )
 
