@@ -1,0 +1,11 @@
+"property_id","property_usage_type","property_class","address_line","city","state","postal_code","market_name","net_rentable_area","total_gross_area","last_sale_price"
+101,Retail,,"11 Depot St",Housatonic,MA,"01236",Massachusetts,,0.00,
+102,Office,Class B,"1630 Stewart St",Santa Monica,CA,"90404",Los Angeles,76169.00,76169.00,18850188.00
+103,Office,Unknown,"470 Nevada St",Auburn,CA,"95603",Sacramento,33000.00,33000.00,
+104,Retail,,"174 Park St",North Reading,MA,"1864",Boston,,0.00,
+105,Retail,,"25400 Highway 128",Yorkville,CA,"95494",Northern California,,0.00,
+106,Office,Class A,"11480 Commerce Park Dr",Reston,VA,"20191",Northern Virginia,145750.00,145750.00,
+107,Industrial,,"4599 Mission Gorge Pl",San Diego,CA,"92120",San Diego,5225.00,5225.00,
+108,Industrial,,"650 West Ave",Stamford,CT,"06902",Fairfield County,,0.00,
+109,Office,Unknown,"150 Spear St",San Francisco,CA,"94105",San Francisco,255000.00,272000.00,183797000.00
+110,Office,Class B,"1333 2nd St",Santa Monica,CA,"90401",Los Angeles,81313.00,81313.00,
