@@ -356,4 +356,4 @@ The query engine supports natural-language patterns for deterministic lookups:
 | `less than`, `below`, `under` | `<` |
 | `equal to`, `equals` | `=` |
 | `>=`, `<=`, `>`, `<`, `=` | symbolic pass-through |
-# knowledge_graph
+
