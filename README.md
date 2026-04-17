@@ -82,7 +82,7 @@ knowledge_graph/
 
 | Label | Description | Key Attributes |
 |---|---|---|
-| `Lease` | A single lease record | `lease_id`, `total_leased_space`, `asking_rent_monthly`, `base_rent_monthly`, `start_date`, `end_date`, `signed_date`, `arrangement_status`, `lease_activity_type`, `usage_type` |
+| `Lease` | A single lease record | `lease_id`, `total_leased_space`, `asking_rent_monthly`, `base_rent_monthly`, `start_date`, `end_date`, `signed_date`, `lease_status`, `lease_activity_type`, `usage_type` |
 | `Property` | A physical property | `property_id`, `address`, `city`, `state`, `postal_code`, `net_rentable_area`, `total_gross_area`, `last_sale_price`, `usage_type`, `class_type` |
 | `City` | City derived from property data | `name` |
 | `State` | State derived from property data | `code` |
