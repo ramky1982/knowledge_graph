@@ -16,7 +16,7 @@ def build_lease_property_kg(
     nx = require_networkx()
     graph = nx.MultiDiGraph(name="lease_property_kg")
 
-    properties_by_skey: Dict[str, Dict[str, str]] = {
+    properties_by_id: Dict[str, Dict[str, str]] = {
         row["property_id"]: row for row in property_rows
     }
 
@@ -81,7 +81,7 @@ def build_lease_property_kg(
             continue
 
         property_node = f"property:{property_id}"
-        is_known_property = property_id in properties_by_skey
+        is_known_property = property_id in properties_by_id
 
         if not is_known_property:
             graph.add_node(
@@ -104,7 +104,7 @@ def build_lease_property_kg(
             graph.add_node(usage_node, label="UsageType", name=lease_usage)
             graph.add_edge(lease_node, usage_node, relation="LEASE_USAGE")
 
-        property_usage = properties_by_skey.get(property_id, {}).get("property_usage_type")
+        property_usage = properties_by_id.get(property_id, {}).get("property_usage_type")
         if property_usage:
             p_usage_node = f"usage:{property_usage.lower()}"
             graph.add_node(p_usage_node, label="UsageType", name=property_usage)
